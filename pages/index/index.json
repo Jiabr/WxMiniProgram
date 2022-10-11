@@ -3,6 +3,7 @@
     "ATunnelStimulate" : "/Components/ATunnelStimulate/ATunnelStimulate",
     "ABTunnelStimulate" : "/Components/ABTunnelStimulate/ABTunnelStimulate",
     "BatteyInfo" : "/Components/BatteryInfo/BatteryInfo",
-    "SignalCollection" : "/Components/SignalCollection/SignalCollection"
+    "SignalCollection" : "/Components/SignalCollection/SignalCollection",
+    "ABTunnelPreStimulate" : "/Components/ABTunnelPreStimulate/ABTunnelPreStimulate"
   }
 }

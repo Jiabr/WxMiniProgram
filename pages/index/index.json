@@ -1,3 +1,8 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "ATunnelStimulate" : "/Components/ATunnelStimulate/ATunnelStimulate",
+    "ABTunnelStimulate" : "/Components/ABTunnelStimulate/ABTunnelStimulate",
+    "BatteyInfo" : "/Components/BatteryInfo/BatteryInfo",
+    "SignalCollection" : "/Components/SignalCollection/SignalCollection"
+  }
 }

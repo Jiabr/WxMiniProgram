@@ -1,1 +1,7 @@
 <!--index.wxml-->
+<view class="buttonsContainer">
+  <button class="mini-btn" type="primary" size="mini">A通道刺激</button>
+  <button class="mini-btn" type="default" size="mini">AB通道刺激</button>
+  <button class="mini-btn" type="default" size="mini">AB通道预刺激</button>
+  <button class="mini-btn" type="default" size="mini">采集信号</button>
+</view>

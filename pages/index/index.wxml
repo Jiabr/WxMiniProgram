@@ -1,7 +1,17 @@
 <!--index.wxml-->
 <view class="buttonsContainer">
-  <button class="mini-btn" type="primary" size="mini">A通道刺激</button>
-  <button class="mini-btn" type="default" size="mini">AB通道刺激</button>
-  <button class="mini-btn" type="default" size="mini">AB通道预刺激</button>
-  <button class="mini-btn" type="default" size="mini">采集信号</button>
+  <view>
+    <button class="mini-btn" type="{{items[0].checked ? 'primary' : 'default'}}" size="mini" bindtap="selectHandler" data-index="0">{{items[0].name}}</button>
+    <button class="mini-btn" type="{{items[1].checked ? 'primary' : 'default'}}" size="mini" bindtap="selectHandler" data-index="1">{{items[1].name}}</button>
+  </view>
+  <view>
+    <button class="mini-btn" type="{{items[2].checked ? 'primary' : 'default'}}" size="mini" bindtap="selectHandler" data-index="2">{{items[2].name}}</button>
+    <button class="mini-btn" type="{{items[3].checked ? 'primary' : 'default'}}" size="mini" bindtap="selectHandler" data-index="3">{{items[3].name}}</button>
+  </view>
+</view>
+<view>
+  <ATunnelStimulate wx:if="{{items[0].checked}}" />
+  <ABTunnelStimulate wx:if="{{items[1].checked}}" />
+  <ABTunnelPreStimulate wx:if="{{items[2].checked}}" />
+  <SignalCollection wx:if="{{items[3].checked}}" />
 </view>

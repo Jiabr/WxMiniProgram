@@ -1,1 +1,11 @@
 /**index.wxss**/
+.buttonsContainer view {
+  display: flex;
+  justify-content: center;
+}
+.buttonsContainer view:nth-child(2) {
+  margin-top: 50rpx;
+}
+.mini-btn {
+  width: 100rpx;
+}
